@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+body,html
+{
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+#container
+{
+    margin: 150px auto;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+}
