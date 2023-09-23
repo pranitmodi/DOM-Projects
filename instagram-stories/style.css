@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: #fff;
+}
+body,html
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background: linear-gradient(145deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card
+{
+    height: 590px;
+    width: 330px;
+    border-radius: 10px;
+    border: 2px #111 solid;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+#card .nav
+{
+    height: 40px;
+    position: relative;
+}
+#card .nav img
+{
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: -23px;
+    left: -8px;
+}
+#card .nav .icons
+{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+#card .nav .icons i
+{
+    font-size: 25px;
+    margin-left: 5px;
+}
+#full-screen
+{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    display: none;
+    /* background-color: crimson; */
+}
+#full-screen img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#storiyan
+{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #dddd;
+    padding: 10px 15px;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.container h3
+{
+    font-size: 2vh;
+    display: inline;
+    font-weight: 500;
+}
+#storiyan::-webkit-scrollbar
+{
+    display: none;
+}
+.story
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.story img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+
+    /* important properties */
+    object-fit: cover;
+    object-position: center; 
+}
+
+#post
+{
+    padding: 5px;
+    height: 50px;
+}
+#post #container
+{
+    position: relative;
+}
+#post i
+{
+    font-size: 50px;
+    color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: transform ease 0.4s;
+}
+#post #post-top
+{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#post #post-top .three-dots
+{
+    margin-right: 10px;
+    margin-top: 13px;
+}
+#post #post-top .mix
+{
+    display: flex;
+    align-items: center;
+}
+#post #post-top .mix .tick
+{
+    margin-left: 3px;
+    height: 13px;
+    width: 13px;
+}
+#post #post-top h3
+{
+    font-weight: 550;
+    font-size: 13px;
+}
+#post #post-top img
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#post img
+{
+    /* height: 500px; */
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+.bottom-nav
+{
+    height: 50px;
+    position: absolute;
+    bottom: 13px;
+    /* padding: 5px; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom-nav i
+{
+    font-size: 25px;
+}
+.bottom-nav #add_post
+{
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 2px;
+}
+.bottom-nav img
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+#main h2
+{
+    margin-left: 30px;
+    font-size: 30px;
+}
+#main h2 em,a
+{
+    color: #000;
+}
