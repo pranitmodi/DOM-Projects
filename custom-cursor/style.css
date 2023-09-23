@@ -33,6 +33,8 @@ body,html
 h1
 {
     font-size: 130px;
+
+    /* new feature */
     mix-blend-mode: difference;
 }
 h1::selection
